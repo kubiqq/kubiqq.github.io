@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ПРИП Белого, Баренцева и Печорского морей</title>
+<meta name="description" content="Карта действующих ПРИП (прибрежных навигационных предупреждений) Белого, Баренцева и Печорского морей и программа ПРИП-Синхро для TimeZero.">
+<link rel="canonical" href="https://kubiqq.github.io/">
+<style>
+  :root { --bg:#fff; --fg:#1b1f24; --muted:#5b6570; --line:#dde2e7; --accent:#1a5fb4; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#16191d; --fg:#e6e9ec; --muted:#9aa4ae; --line:#2c3238; --accent:#78aeed; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.55 system-ui, sans-serif; }
+  main { max-width:680px; margin:0 auto; padding:48px 16px; }
+  h1 { font-size:26px; line-height:1.25; margin:0 0 12px; }
+  p { margin:0 0 16px; }
+  a { color:var(--accent); }
+  .card { display:block; border:1px solid var(--line); border-radius:10px; padding:16px 18px; margin:0 0 12px;
+          text-decoration:none; color:inherit; }
+  .card:hover { border-color:var(--accent); }
+  .card b { color:var(--accent); font-size:17px; }
+  .muted { color:var(--muted); font-size:14px; }
+  footer { margin-top:40px; padding-top:16px; border-top:1px solid var(--line); }
+</style>
+</head>
+<body>
+<main>
+  <h1>ПРИП Белого, Баренцева и Печорского морей</h1>
+  <p>Действующие прибрежные навигационные предупреждения (ПРИП) на карте — по данным ФГБУ
+    «АМП Западной Арктики» (mapm.ru): ПРИП Архангельск, ПРИП Мурманск и ПРИП Запад.</p>
+
+  <a class="card" href="/PRIP/">
+    <b>Карта действующих ПРИП →</b><br>
+    <span class="muted">Районы стрельб, опасности, навигационное оборудование. Обновляется каждый час.
+      Файлы GPX для TimeZero и OpenCPN, KML для Google Earth.</span>
+  </a>
+  <a class="card" href="https://github.com/kubiqq/PRIP/releases/latest">
+    <b>ПРИП-Синхро для Windows →</b><br>
+    <span class="muted">Программа для судового компьютера: загружает ПРИП, показывает изменения
+      и готовит файлы для TimeZero Navigator. Работает и без связи.</span>
+  </a>
+  <a class="card" href="https://github.com/kubiqq/PRIP">
+    <b>Исходный код на GitHub →</b><br>
+    <span class="muted">Открытый проект, лицензия GNU GPL v3.</span>
+  </a>
+
+  <footer class="muted">
+    Автор: Смирнов В.В., ,
+    <a href="mailto:smirnov.ecology@yandex.ru">smirnov.ecology@yandex.ru</a>
+  </footer>
+</main>
+</body>
+</html>
